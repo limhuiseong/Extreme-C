@@ -17,6 +17,7 @@ int main(int argc, char** argv) {
 
   int_ptr++;    // Arithmetic step is usually 4 bytes
   char_ptr++;   // Arithmetic step in 1 byte
+  // 산술연산 간격(arithmetic step size)는 C언어의 자료형에 따라 결정된다.
 
   printf("After arithmetic: int_ptr: %u, char_ptr: %u\n",
           (unsigned int)int_ptr, (unsigned int)char_ptr);

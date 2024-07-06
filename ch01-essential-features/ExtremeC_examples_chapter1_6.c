@@ -16,6 +16,8 @@
 
 #define LOOP(...) \
   LOOP_1(__VA_ARGS__)
+// __VA_ARGS__를 활용해 loop unrolling을 할 수 있다.
+// loop unrolling은 은 이진 파일의 크기와 성능을 교환한다.
 
 int main(int argc, char** argv) {
 

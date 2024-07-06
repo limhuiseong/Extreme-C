@@ -9,6 +9,7 @@
 
 #define LOG_ERROR(format, ...) \
   fprintf(stderr, format, __VA_ARGS__)
+// __VA_ARGS__ 식별자는 가변 인자 매크로이다.
 
 int main(int argc, char** argv) {
 

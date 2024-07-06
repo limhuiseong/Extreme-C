@@ -14,6 +14,8 @@ int main(int argc, char** argv) {
  arr[4] = 18;
  
  int* ptr = &arr[0];
+ // arr의 실제 자료형은 int* 이므로
+ // int* ptr = arr;로 작성해야 한다.
  
  for (;;) {
    printf("%d\n", *ptr);

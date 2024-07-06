@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 void print_bytes(void* data, size_t length) {
+  // generic pointer로 parameter를 받아오면 명시적 형 변환(explicit cast)가 필요하지 않다. 
   char delim = ' ';
   unsigned char* ptr = data;
   for (size_t i = 0; i < length; i++) {

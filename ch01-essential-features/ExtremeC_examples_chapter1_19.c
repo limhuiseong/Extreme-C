@@ -13,6 +13,7 @@ int subtract(int a, int b) {
 
 int main() {
   int (*func_ptr)(int, int);
+  // 함수 포인터
   func_ptr = NULL;
 
   func_ptr = &sum;

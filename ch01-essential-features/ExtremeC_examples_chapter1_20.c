@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+// 함수 포인터는 type alias를 정의하여 사용하는게 좋다.
 typedef int bool_t;
 typedef bool_t (*less_than_func_t)(int, int);
 
